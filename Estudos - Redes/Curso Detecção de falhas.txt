@@ -1,0 +1,40 @@
+Curso - Detecção de falhas em redes
+
+ferramentas de detecção: 
+-ip address (linux)
+-ipconfig
+
+controle de IPs globais - IANA
+regional, do Brasil - LACNIC
+para ver quem é o dono dessa rede, pode ser visto pelo comando "whois"
+
+*IPV4* 
+Endereço de 32 bits. 
+
+*IPV6*
+128 bits, 
+
+Exemplo da Bea:
+
+192.168.1.0/24
+255.255.255.0 (representação decimal da máscara)
+binária: 
+
+classes de endereços de rede
+clase A,B e C
+broadcast - joga a informação na rede para tds ouvirem, é uma forma de definir uma conexão fechada, joga o sinal geral, até algm responder.
+
+
+mtu - tamanho q o pacote de rede pode ter
+ping 1.1.1.1 -M do -s 1480
+
+ip route - rotas q o computador conhece
+
+dhcp- automariza o procesos de atribuição de IP, requisições são UDP. 
+
+sudo nmap --script broadcast-dhcp-discover2 - comando pra verificar  se tem mais de um dhcp na rede
+
+iperf - speedtest mas no terminalsudo 
+tem um comando esp, pra quando é o servidor, e quando é o cliente. 
+
+GCNat - nat inertemediário entre a rede e o local, ip publico tem limitações de sessões, são as portas disponivéis, de sevriço q vc pode utilizar. 

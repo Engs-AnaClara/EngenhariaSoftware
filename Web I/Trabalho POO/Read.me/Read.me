@@ -1,0 +1,25 @@
+--------------------- Kauana --------------------- 
+Uso de Solid e Calisthenics 
+
+--------------------- Ana Clara --------------------- 
+ 
+    Na divisão de tarefas, fiquei responsavél por implementar a classe pedidos, ItemPedido, FilaPedidos, StatusPedido  e ProcessadorPedido, e pela funcionalidade das threads
+    Pedido - Na classe pedido, foram definidos os atributos essenciais na composição do pedido, e também foram definidos metodos que auxiliassem no posisiconamento dentro da fila,lidando com diferentes variáveis. 
+
+    ItemPedido - Definiu algumas regras, como a necessidade de o produto não ser nulo, e também auxiliou na listagem dos itens, e um cálculo do subtotal dos itens adquiridos. 
+
+    FilaPedidos - Aqui também foram definidas algumas regras para o funcionamento do fila, tratando de obrigatoriedades. Além disso, permite remover itens, verificar o seu tamanho e se a lista está vazia. Na presente classe foi adicionada a funcionalidade BlockingQueue para facilitar o código e a lógica. 
+
+    StatusPedido - Enum que define os status possíveis dos pedidos no sistema.
+
+    ProcessadorPedido - Classe responsável pelo processamento assíncrono dos pedidos, implementando threads para executar as operações em segundo plano. Controla as etapas que os pedidos passam na fila de processamento, garantindo a mudança adequada de status e a finalização dos itens. Também obdece boas práticas de programação, prezando por clareza e objetividade.
+
+    Durante todo o código, não utilizei setters, e também foquei para que usasse o minimo de else possível. Inclusive invertendo lógicas, diferente do modo que estou acostumada, para que somente o uso do if fosse necessário, como por exemplo na classe ItemPedido, com o 0 maior ou igual a quantidade, pude trtatar somenet a exceção do número que eu queria.
+    
+    E ainda na classe, ItemPedido deixei dois ifs dentro do Construtor, com o objetivo de respeitar o princípio Fail-Fast de Obejct Calisthenics, de forma que o getter só retorna um valor, e não assume funções de de lógica.
+
+    Entre uma das escolhas de design, para a organização das filas de pedidos, decidi usar o blocingqueue, uma vez que fazer o código sem esse tipo de auxílio deixara o código mais complexo, logo, utilizei essa ferramenta para que o as threads e a espera possam ser salvas de forma automática, também possibilitou o uso de menos códigos
+
+
+--------------------- Samara --------------------- 
+Uso de Solid e Calisthenics 

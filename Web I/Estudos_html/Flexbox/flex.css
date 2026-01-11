@@ -1,0 +1,13 @@
+.container{
+    /*display_flex:*/
+    display:grid;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+}
+.item{}
+body{
+
+}

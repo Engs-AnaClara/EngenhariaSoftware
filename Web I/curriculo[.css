@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Raleway' sans-serif;
+    background-color:rgb(247, 224, 231);
+    color:rgb(212, 76, 122);
+    margin:0 20px;
+    padding:0;
+    text-align: center;
+    }
+
+    header{
+        padding:2rem;
+        background-color: rgb(211, 91, 147); 
+        h1 {
+            color:rgb(250, 237, 241)
+        }
+    }
+    li {
+        font-weight: bold;
+        margin-left:15 px;
+    }
+     h1 p {
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+    font-size: 32px; 
+    color: rgb(221, 221, 221)}
+    
+    strong {
+        font-weight: bold;
+        font-style:oblique;
+    }
+            
+
+
+
